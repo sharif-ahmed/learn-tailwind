@@ -14,14 +14,14 @@ This is the README file for my project.
 
 /*tailwind.config.js  file*/
 
-/** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: ['*'],//put '*'  in []
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-}
+/** @type {import('tailwindcss').Config} */ <br>
+module.exports = { <br>
+  content: ['*'],//put '*'  in [] <br>
+  theme: { <br>
+    extend: {},<br>
+  },<br>
+  plugins: [],<br>
+}<br>
 
 5. In package.json file modified scripts value 
 
@@ -31,16 +31,16 @@ module.exports = {
 
 6. add css folder and create css file add three line of this in css file
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@tailwind base; <br>
+@tailwind components;<br>
+@tailwind utilities;<br>
 
 7. link css file in head tag of the html file
 
-<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/main.css"> <br>
 
-8. npm run start //we add vite so we command this
-this command provide a link
+8. npm run start //we add vite so we command this <br>
+this command provide a link <br>
 
 9.
 
