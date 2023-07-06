@@ -30,10 +30,11 @@ module.exports = { <br>
   },
 
 6. add css folder and create css file add three line of this in css file
-
-@tailwind base; <br>
-@tailwind components;<br>
-@tailwind utilities;<br>
+ <ul>
+    <li>@tailwind base;</li>
+    <li>@tailwind components;</li>
+    <li>@tailwind utilities;</li>
+ </ul>
 
 7. link css file in head tag of the html file
 
