@@ -23,20 +23,19 @@ module.exports = { <br>
   plugins: [],<br>
 }<br>
 
-5. In package.json file modified scripts value 
+5. In package.json file modified scripts value  <br>
 
-  "scripts": {
-    "start": "vite"
-  },
+  "scripts": { <br>
+    "start": "vite" <br>
+  }, <br>
 
-6. add css folder and create css file add three line of this in css file
- <ul>
-    <li>@tailwind base;</li>
-    <li>@tailwind components;</li>
-    <li>@tailwind utilities;</li>
- </ul>
+6. add css folder and create css file add three line of this in css file <br>
+  @tailwind base; <br>
+  @tailwind components; <br>
+  @tailwind utilities; <br>
 
-7. link css file in head tag of the html file
+
+7. link css file in head tag of the html file <br>
 
 <link rel="stylesheet" href="css/main.css"> <br>
 
